@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+h1:hover{
+    color: red;
+}
+
+#about{
+    margin-top: 20px;
+    background-color: rgb(217, 255, 47);
+}
+p{
+    margin: 20px;
+}
+span{
+    color: rgb(255, 162, 0);
+font-size: 20px;
+font-weight: 700;
+}
+#contact{
+    background-color: rgb(62, 255, 236);
+}
